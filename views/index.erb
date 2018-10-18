@@ -1,12 +1,18 @@
 <html>
-  <head></head>
+  <head>
+    <style>
+      body {
+        background-color: <%= bg_color %>
+      }
+    </style>
+  </head>
   <body>
     <p>
-      <%= check_guess(guess) %>
+      <%= message %>
     </p>
 
     <p> 
-      <%= "The SECRET NUMBER is #{SECRET_NUMBER}" if check_guess(guess) == 'You got it right!' %>
+      <%= "The SECRET NUMBER is #{SECRET_NUMBER}" if how_close == :correct %>
     </p>
     <form>
       <input type='text' name='guess' \>
