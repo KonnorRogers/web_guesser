@@ -3,7 +3,7 @@
 <p> This is a simple number guessing game to familiarize myself with sinatra. </p>
 
 # Prerequisites
-
+<p> Ruby must be installed, most likely only compatible w/ Ruby 1.9 and above due to hash syntax </p>
 <p> You must have the following gems installed: </p>
 <p> sinatra, sinatra-contrib </p>
 <p> To install type: </p>       
