@@ -2,12 +2,17 @@
   <head></head>
   <body>
     <p>
-      The SECRET NUMBER is <%= number %>
+      <%= check_guess(guess) %>
+    </p>
+
+    <p> 
+      <%= "The SECRET NUMBER is #{SECRET_NUMBER}" if check_guess(guess) == 'You got it right!' %>
     </p>
     <form>
       <input type='text' name='guess' \>
       <input type='submit' value='Guess!' \>
     </form>
+
   </body>
 </html>
 
