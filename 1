@@ -7,5 +7,5 @@ number = rand(100)
 
 # Base request to server
 get '/' do
-  erb :index, locals: { number: number }
+  erb :index, :locals = { number: number }
 end
