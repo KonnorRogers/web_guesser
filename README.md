@@ -9,6 +9,7 @@
 <p> To install type: </p>       
 
 > gem install sinatra
+
 > gem install sinatra-contrib
 
 
