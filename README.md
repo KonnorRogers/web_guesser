@@ -7,11 +7,11 @@
 <p> You must have the following gems installed: </p>
 <p> sinatra, sinatra-contrib </p>
 <p> To install type: </p>       
+```
+gem install sinatra
 
-> gem install sinatra
-
-> gem install sinatra-contrib
-
+gem install sinatra-contrib
+```
 
 # Usage 
 <p> To use, simply navigate to the directory </p>
