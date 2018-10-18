@@ -7,7 +7,7 @@
 <p> You must have the following gems installed: </p>
 <p> sinatra, sinatra-contrib </p>
 <p> To install type: </p>       
-```
+```ruby
 gem install sinatra
 
 gem install sinatra-contrib
