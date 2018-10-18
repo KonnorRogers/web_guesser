@@ -8,11 +8,18 @@
   </head>
   <body>
     <p>
-      <%= message %>
+      <%= message unless game.has_reset %>
+    </p>
+
+    <p>
+      <%= "You have #{game.guesses} guesses remaining!" %>
+    </p>
+    <p>
+      <%= game.reset_message if game.has_reset && game.won == false %>
     </p>
 
     <p> 
-      <%= "The SECRET NUMBER is #{SECRET_NUMBER}" if how_close == :correct %>
+      <%= "The SECRET NUMBER is #{game.secret_num}" if how_close == :correct || game.cheat == true%>
     </p>
     <form>
       <input type='text' name='guess' \>
