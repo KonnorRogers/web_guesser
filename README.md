@@ -26,3 +26,7 @@
 <p> This will then listen in on port 4657 </p>
 <p> In a web browser, type localhost:4657 </p>
 <p> This will bring up the very simple html game </p>
+
+# Other
+
+<p> Added config.ru for possible heroku deployment </p>
