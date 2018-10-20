@@ -2,10 +2,7 @@
 
 require 'sinatra'
 require 'sinatra/reloader' # Automatically reloads the server when changed
-
-# set :secret_number, (proc { rand(100) })
-
-# SECRET_NUMBER = settings.secret_number
+# optionally you can require the gem 'thin' for a rack webserver
 
 class Game
   MAX_GUESSES = 5
