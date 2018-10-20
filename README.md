@@ -12,6 +12,12 @@
 
     gem install sinatra-contrib
 
+<p> Alternatively: </p>
+
+    gem install bundler
+
+    bundle install
+
 # Usage 
 <p> To use, simply navigate to the directory </p>
 
